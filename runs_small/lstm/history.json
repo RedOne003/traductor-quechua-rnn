@@ -1,0 +1,1 @@
+{"cell_type": "lstm", "train_seconds": 35.762237310409546, "epochs_ran": 60, "final_val_acc": 0.7824075222015381, "final_val_loss": 1.0405539274215698}

@@ -11,6 +11,7 @@ OUT = ROOT / "informe"
 OUT.mkdir(exist_ok=True)
 
 REPO_URL = "https://github.com/RedOne003/traductor-quechua-rnn"
+DEMO_URL = "https://traductor-quechua-rnn.netlify.app"
 
 
 def load(name):
@@ -68,7 +69,7 @@ pdf.add_page()
 pdf.set_font("Helvetica", "B", 18)
 pdf.multi_cell(0, 10, "Desarrollo de un Traductor Espanol-Quechua con RNN", new_x="LMARGIN", new_y="NEXT")
 pdf.set_font("Helvetica", "", 11)
-pdf.multi_cell(0, 7, "Curso: Inteligencia Artificial - Facultad de Ingenieria y Arquitectura\nPrograma: Ingenieria de Sistemas - Universidad Andina del Cusco\nRepositorio: " + REPO_URL, new_x="LMARGIN", new_y="NEXT")
+pdf.multi_cell(0, 7, "Curso: Inteligencia Artificial - Facultad de Ingenieria y Arquitectura\nPrograma: Ingenieria de Sistemas - Universidad Andina del Cusco\nRepositorio: " + REPO_URL + "\nDemo en linea: " + DEMO_URL, new_x="LMARGIN", new_y="NEXT")
 pdf.ln(3)
 
 h1(pdf, "1. Objetivo")
@@ -201,6 +202,7 @@ p(pdf, "1. Se implemento exitosamente un pipeline completo (descarga de datos, p
 
 h1(pdf, "9. Repositorio y reproducibilidad")
 p(pdf, f"Codigo fuente completo, datos de procesamiento, pesos de los modelos y resultados: {REPO_URL}")
+p(pdf, f"Demo interactiva desplegada (traductor con vocabulario reducido, 100% en el navegador): {DEMO_URL}")
 p(pdf, "El README del repositorio detalla los pasos exactos para reproducir el preprocesamiento, "
        "el entrenamiento de ambos modelos, la evaluacion BLEU y la demo web.")
 

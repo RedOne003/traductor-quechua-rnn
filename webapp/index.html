@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Traductor Español → Quechua</title>
+<style>
+  :root{ --navy:#0E4377; --cyan:#5DBBEA; --ink:#1c2b3a; --bg:#0f1720; --card:#17222e; --line:#2a3a4a; }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:#eaf2fa;padding:24px 16px}
+  .wrap{max-width:760px;margin:0 auto}
+  h1{font-size:1.6rem;margin:0 0 4px}
+  p.sub{color:#9fb3c8;margin:0 0 20px}
+  textarea{width:100%;min-height:70px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:#fff;padding:12px;font-size:1rem}
+  button{margin-top:10px;background:var(--navy);color:#fff;border:none;padding:12px 20px;border-radius:8px;font-size:1rem;cursor:pointer}
+  button:hover{background:#114a86}
+  .out{margin-top:18px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
+  .out h3{margin:0 0 6px;color:var(--cyan);font-size:0.95rem}
+  .words span{display:inline-block;margin:2px 4px 2px 0;padding:2px 8px;border-radius:12px;font-size:0.85rem}
+  .known{background:#1d4d2b;color:#9ef0ab}
+  .unknown{background:#5c2020;color:#f5a3a3}
+  .translation{font-size:1.2rem;margin-top:8px}
+  .examples button{background:#223247;margin:4px 6px 0 0;padding:6px 12px;font-size:0.85rem}
+  footer{margin-top:24px;color:#6c8299;font-size:0.8rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Traductor Español → Quechua</h1>
+  <p class="sub">RNN (LSTM) entrenada con vocabulario reducido para aprender bien con pocas palabras. Corre 100% en tu navegador, sin servidor.</p>
+  <textarea id="input" placeholder="Escribe una oración corta en español..."></textarea><br>
+  <button id="btn">Traducir</button>
+  <div class="examples" id="examples"></div>
+  <div class="out">
+    <h3>Palabras reconocidas</h3>
+    <div class="words" id="words">—</div>
+  </div>
+  <div class="out">
+    <h3>Traducción al quechua</h3>
+    <div class="translation" id="translation">—</div>
+  </div>
+  <footer>Proyecto académico — Inteligencia Artificial, UAC. Vocabulario: ~400 palabras más frecuentes del corpus AmericasNLP/JW300.</footer>
+</div>
+<script src="infer.js"></script>
+</body>
+</html>

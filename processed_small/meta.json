@@ -1,0 +1,9 @@
+{
+  "max_len": 10,
+  "vocab_size_es": 242,
+  "vocab_size_qu": 237,
+  "n_train": 1229,
+  "n_dev": 100,
+  "n_test": 147,
+  "top_words": 400
+}

@@ -5,3 +5,6 @@ __pycache__/
 *.pyc
 .venv/
 *.log
+
+# Local Netlify folder
+.netlify
