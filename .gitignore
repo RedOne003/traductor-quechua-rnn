@@ -1,0 +1,7 @@
+data/
+processed/
+runs/*/*.h5
+__pycache__/
+*.pyc
+.venv/
+*.log

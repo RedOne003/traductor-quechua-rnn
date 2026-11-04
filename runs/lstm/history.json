@@ -1,0 +1,29 @@
+{
+  "cell_type": "lstm",
+  "history": {
+    "loss": [
+      5.2079,
+      4.3534,
+      4.0412
+    ],
+    "accuracy": [
+      0.309,
+      0.4101,
+      0.4324
+    ],
+    "val_loss": [
+      3.7519,
+      3.7088,
+      3.7035
+    ],
+    "val_accuracy": [
+      0.4672,
+      0.4899,
+      0.4897
+    ]
+  },
+  "train_seconds": 532.0,
+  "n_params": 6944480,
+  "epochs_ran": 3,
+  "nota": "Entrenamiento acotado por restriccion de tiempo de entrega; se uso el mejor checkpoint (menor val_loss) hasta ese punto."
+}
