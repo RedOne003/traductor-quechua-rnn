@@ -1,0 +1,57 @@
+{
+  "cell_type": "rnn",
+  "n_eval": 40,
+  "bleu": 0.011137214589236078,
+  "ejemplos": [
+    {
+      "es": "otros también serían ungidos para ser reyes y sacerdotes .",
+      "referencia": "kanqataqmi pay hina huk reykunapas hinaspa sacerdotekunapas .",
+      "prediccion": "<unk> <unk> <unk> ."
+    },
+    {
+      "es": "queda claro , por tanto , que jesús no es el dios todopoderoso .",
+      "referencia": "chaynaqa , jesusqa manam tukuy atiyniyoq dioschu .",
+      "prediccion": "<unk> <unk> <unk> ."
+    },
+    {
+      "es": "un anciano le dijo : te conozco desde que eras un bebé .",
+      "referencia": "hinaptinmi huk anciano nirqa : ñuqaqa wawacha kasqaykimantam riqsiki .",
+      "prediccion": "<unk> <unk> <unk> ."
+    },
+    {
+      "es": "eso sería lo justo , ¿ verdad ?",
+      "referencia": "chayna tapukuynikiqa allinpunim kanman .",
+      "prediccion": "¿ imatam ruwananchik ?"
+    },
+    {
+      "es": "para ilustrarlo : imagine que usted quiere edificar una casa .",
+      "referencia": "tupanachisun : wasi ruranaykipaq tanteawaq .",
+      "prediccion": "<unk> <unk> <unk> ."
+    },
+    {
+      "es": "jehová me ayudó a corregir mi actitud y a tomar buenas decisiones .",
+      "referencia": "jehova diosqa tayta mamaywan allinta kawsakunaypaq hinaspa imatapas allinta tanteanaypaqmi yanapawarqa .",
+      "prediccion": "<unk> <unk> <unk> ."
+    },
+    {
+      "es": "micah y megan",
+      "referencia": "micah hinaspa megan",
+      "prediccion": "<unk>"
+    },
+    {
+      "es": "que su modo de vivir esté exento del amor al dinero . . . .",
+      "referencia": "amayá apuyaytaqa kuyaychikchu . . . .",
+      "prediccion": "<unk> <unk> <unk> <unk> ."
+    },
+    {
+      "es": "sino sigan percibiendo cuál es la voluntad de jehová .",
+      "referencia": "tiempoykichiktapas amayá usuchiychikchu .",
+      "prediccion": "<unk> <unk> <unk> ."
+    },
+    {
+      "es": "a ¿ podemos eliminar nuestra tendencia al egoísmo ?",
+      "referencia": "a ¿ atichwanchu kikillanchikpaq munaq kasqanchikta chinkarachiyta ?",
+      "prediccion": "¿ imaynatam jehova diosqa <unk> ?"
+    }
+  ]
+}

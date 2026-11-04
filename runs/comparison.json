@@ -1,0 +1,22 @@
+{
+  "rnn": {
+    "bleu": 0.011137214589236078,
+    "n_params": 6353120,
+    "train_seconds": 514.6167488098145,
+    "epochs_ran": 5,
+    "final_train_loss": 3.4462270736694336,
+    "final_val_loss": 3.9331419467926025,
+    "final_train_acc": 0.44747668504714966,
+    "final_val_acc": 0.48827874660491943
+  },
+  "lstm": {
+    "bleu": 0.012784063324376045,
+    "n_params": 6944480,
+    "train_seconds": 532.0,
+    "epochs_ran": 3,
+    "final_train_loss": 4.0412,
+    "final_val_loss": 3.7035,
+    "final_train_acc": 0.4324,
+    "final_val_acc": 0.4897
+  }
+}
